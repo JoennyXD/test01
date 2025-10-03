@@ -12,8 +12,7 @@ export function initNet() {
   const firebaseConfig = {
     apiKey: 'AIzaSyA8U9ECqLYMa2EsP9tSKHtlCQLfOvel4Qo',
     authDomain: 'mountainbar-f659e.firebaseapp.com',
-    databaseURL: 'https://mountainbar-f659e-default-rtdb.asia-southeast1.firebasedatabase.app/
-',
+    databaseURL: 'https://mountainbar-f659e-default-rtdb.asia-southeast1.firebasedatabase.app/',
     projectId: 'mountainbar-f659e',
     storageBucket: 'mountainbar-f659e.firebasestorage.app',
     messagingSenderId: '571561050433',
