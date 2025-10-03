@@ -1,0 +1,9 @@
+/* style.css */
+body { font-family: system-ui, sans-serif; margin: 0; background: #f7f7f7; }
+header { padding: 12px 16px; background: #222; color: #fff; display: flex; align-items: center; gap: 16px; }
+#controls { display: flex; gap: 8px; align-items: center; }
+main { display: flex; gap: 24px; padding: 24px; }
+canvas { background: #e0bf7f; border: 2px solid #111; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+#info { display: grid; gap: 8px; }
+button { padding: 6px 10px; border: 1px solid #444; background: #fff; cursor: pointer; }
+input { padding: 6px 8px; width: 140px; }
