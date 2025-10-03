@@ -17,6 +17,7 @@ export function initNet() {
     storageBucket: 'mountainbar-f659e.firebasestorage.app',
     messagingSenderId: '571561050433',
     appId: '1:571561050433:web:1361a7e949afc2868961c0'
+    
   };
   const app = initializeApp(firebaseConfig);
   db = getDatabase(app);
