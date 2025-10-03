@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Renju Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Renju Online</h1>
+    <div id="controls">
+      <button id="createRoomBtn">Create room</button>
+      <input id="roomIdInput" placeholder="Room ID" />
+      <button id="joinRoomBtn">Join room</button>
+      <span id="status"></span>
+    </div>
+  </header>
+
+  <main>
+    <canvas id="board" width="600" height="600"></canvas>
+    <div id="info">
+      <div><strong>Turn:</strong> <span id="turnLabel">-</span></div>
+      <div><strong>Room:</strong> <span id="roomLabel">-</span></div>
+      <div><strong>You are:</strong> <span id="youLabel">-</span></div>
+    </div>
+  </main>
+
+  <script type="module" src="net.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
