@@ -10,13 +10,13 @@ let onStatusCb = () => {};
 
 export function initNet() {
   const firebaseConfig = {
-    apiKey: 'YOUR_API_KEY',
-    authDomain: 'YOUR_PROJECT.firebaseapp.com',
-    databaseURL: 'https://YOUR_PROJECT-default-rtdb.firebaseio.com',
-    projectId: 'YOUR_PROJECT',
-    storageBucket: 'YOUR_PROJECT.appspot.com',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    appId: 'YOUR_APP_ID'
+    apiKey: 'AIzaSyA8U9ECqLYMa2EsP9tSKHtlCQLfOvel4Qo',
+    authDomain: 'mountainbar-f659e.firebaseapp.com',
+    databaseURL: 'https://mountainbar-default-rtdb.firebaseio.com',
+    projectId: 'mountainbar-f659e',
+    storageBucket: 'mountainbar-f659e.firebasestorage.app',
+    messagingSenderId: '571561050433',
+    appId: '1:571561050433:web:1361a7e949afc2868961c0'
   };
   const app = initializeApp(firebaseConfig);
   db = getDatabase(app);
